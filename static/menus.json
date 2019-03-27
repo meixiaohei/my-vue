@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "path": "/",
+      "id": 1,
+      "authorityType": 1,
+      "name": "首页"
+    },
+    {
+      "path": "/me",
+      "id": 2,
+      "authorityType": 1,
+      "name": "我们"
+    },
+    {
+      "path": "/help",
+      "id": 3,
+      "authorityType": 1,
+      "name": "帮助"
+    },
+    {
+      "path": "/tools",
+      "id": 4,
+      "authorityType": 2,
+      "name": "工具箱",
+      "children": [
+        {
+          "path": "/one",
+          "id": 41,
+          "authorityType": 1,
+          "name": "工具箱1"
+        },
+        {
+          "path": "/two",
+          "id": 42,
+          "authorityType": 2,
+          "name": "工具箱2"
+        },
+        {
+          "path": "/three",
+          "id": 43,
+          "authorityType": 3,
+          "name": "工具箱3"
+        }
+      ]
+    }
+  ]
+}
