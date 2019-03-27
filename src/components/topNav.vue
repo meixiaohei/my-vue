@@ -10,6 +10,13 @@
     unique-opened
     router
   >
+    <div class="logo">
+      <span class="xiao">小</span>
+      <span class="hei">黑</span>
+      <span class="za">杂</span>
+      <span class="huo">货</span>
+      <span class="dian">店</span>
+    </div>
     <template v-for="item in menus">
       <el-menu-item v-if="item.authorityType === 1" :index="item.path">{{item.name}}</el-menu-item>
       <el-submenu v-if="item.authorityType === 2" :index="item.path">
@@ -55,5 +62,37 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  .el-menu-item{
+    padding: 0 40px;
+  }
+  .logo{
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+  .xiao{
+    color: #409eff;
+    font-family: "PingFang SC";
+  }
+  .hei{
+    color: #67C23A;
+    font-family: "Hiragino Sans GB";
+  }
+  .za{
+    color: #E6A23C;
+    font-family: "Microsoft YaHei";
+  }
+  .huo{
+    color: #909399;
+    font-family: "Helvetica Neue";
+  }
+  .dian{
+    color: #F56C6C;
+    font-family: "Microsoft YaHei";
+  }
 </style>
