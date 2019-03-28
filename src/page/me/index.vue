@@ -27,10 +27,12 @@
       <el-col :span="16">
         <el-tabs type="border-card">
           <el-tab-pane label="用户管理">
+            <UserAdministration/>
+          </el-tab-pane>
+
+          <el-tab-pane label="配置管理">
             <ButtonList/>
           </el-tab-pane>
-          
-          <el-tab-pane label="配置管理">配置管理</el-tab-pane>
           <el-tab-pane label="角色管理">角色管理</el-tab-pane>
           <el-tab-pane label="定时任务补偿">定时任务补偿</el-tab-pane>
         </el-tabs>
@@ -41,6 +43,7 @@
 
 <script>
   import ButtonList from "./ButtonList/index"
+  import UserAdministration from "./UserAdministration/index"
   export default {
     name: 'me',
     data () {
@@ -49,7 +52,7 @@
       }
     },
     components: {
-      ButtonList
+      ButtonList,UserAdministration
     },
     methods: {
       handleChange(val) {

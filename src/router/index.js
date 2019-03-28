@@ -16,36 +16,57 @@ export default new Router({
       path: '/',
       name: '',
       component: Layout,
+      meta: {
+        keepAlive: false // 不需要缓存
+      },
       children:[
         {
           path: '/',
           name: 'index',
-          component: Index
+          component: Index,
+          meta: {
+            keepAlive: false // 不需要缓存
+          }
         },
         {
           path: '/me',
           name: 'Me',
-          component: Me
+          component: Me,
+          meta: {
+            keepAlive: true
+          }
         },
         {
           path: '/help',
           name: 'Help',
-          component: Help
+          component: Help,
+          meta: {
+            keepAlive: false // 不需要缓存
+          }
         },
         {
           path: '/tools/one',
           name: 'One',
-          component: One
+          component: One,
+          meta: {
+            keepAlive: false // 不需要缓存
+          }
         },
         {
           path: '/tools/two',
           name: 'Two',
-          component: Two
+          component: Two,
+          meta: {
+            keepAlive: false // 不需要缓存
+          }
         },
         {
           path: '/tools/three',
           name: 'Three',
-          component: Three
+          component: Three,
+          meta: {
+            keepAlive: false // 不需要缓存
+          }
         }
       ]
     },
