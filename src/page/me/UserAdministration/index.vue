@@ -16,8 +16,8 @@
         </el-col>
       </el-row>
 
-      <el-row v-for="item in myInfo">
-        <el-col class="userHeadTxtRow">
+      <el-row >
+        <el-col v-for="(item,index) in myInfo" :key="index" class="userHeadTxtRow">
           <i :class="item.type"></i>  {{item.title}}
         </el-col>
       </el-row>
@@ -43,10 +43,6 @@
           <img src="../../../images/4.jpg" alt="">
         </div>
       </div>
-      <keep-alive include="tag">
-        <!-- 将缓存name为test-keep-alive的组件 -->
-        <component :is="view"></component>
-      </keep-alive>
     </div>
 </template>
 

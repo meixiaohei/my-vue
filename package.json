@@ -15,8 +15,11 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "echarts": "^4.2.1",
     "element-ui": "^2.6.3",
+    "viser-vue": "^2.4.5",
     "vue": "^2.5.2",
+    "vue-echarts": "^4.0.1",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
