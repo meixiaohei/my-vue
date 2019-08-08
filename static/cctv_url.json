@@ -1,0 +1,129 @@
+{
+  "data": [
+    {
+      "url": "/cctvApi/hls/cctv1hd.m3u8",
+      "name": "CCTV1",
+      "minNmae":"综合",
+      "btnName": "1",
+      "id": 1
+    },
+    {
+      "url": "/cctvApi/hls/cctv2.m3u8",
+      "name": "CCTV2",
+      "minNmae":"财经",
+      "btnName": "2",
+      "id": 2
+    },
+    {
+      "url": "/cctvApi/hls/cctv3hd.m3u8",
+      "name": "CCTV3",
+      "minNmae":"综艺",
+      "btnName": "3",
+      "id": 3
+    },{
+      "url": "/cctvApi/hls/cctv4.m3u8",
+      "name": "CCTV4",
+      "minNmae":"中文国际",
+      "btnName": "4",
+      "id": 4
+    },
+    {
+      "url": "/cctvApi/hls/cctv5phd.m3u8",
+      "name": "CCTV5+",
+      "minNmae":"体育",
+      "btnName": "5",
+      "id": 5
+    },
+    {
+      "url": "/cctvApi/hls/cctv6hd.m3u8",
+      "name": "CCTV6",
+      "minNmae":"电影",
+      "btnName": "6",
+      "id": 6
+    },
+    {
+      "url": "/cctvApi/hls/cctv7.m3u8",
+      "name": "CCTV7",
+      "minNmae":"军事农业",
+      "btnName": "7",
+      "id": 7
+    },
+    {
+      "url": "/cctvApi/hls/cctv8.m3u8",
+      "name": "CCTV8",
+      "minNmae":"电视剧",
+      "btnName": "8",
+      "id": 8
+    },
+    {
+      "url": "/cctvApi/hls/cctv9.m3u8",
+      "name": "CCTV9",
+      "minNmae":"纪录",
+      "btnName": "9",
+      "id": 9
+    },
+    {
+      "url": "/cctvApi/hls/cctv10.m3u8",
+      "name": "CCTV10",
+      "minNmae":"科教",
+      "btnName": "10",
+      "id": 10
+    },
+    {
+      "url": "/cctvApi/hls/cctv11.m3u8",
+      "name": "CCTV11",
+      "minNmae":"戏曲",
+      "btnName": "11",
+      "id": 11
+    },
+    {
+      "url": "/cctvApi/hls/cctv12.m3u8",
+      "name": "CCTV12",
+      "minNmae":"社会与法",
+      "btnName": "12",
+      "id": 12
+    },
+    {
+      "url": "/cctvApi/hls/cctv13.m3u8",
+      "name": "CCTV13",
+      "minNmae":"新闻",
+      "btnName": "13",
+      "id": 13
+    },
+    {
+      "url": "/cctvApi/hls/cctv14.m3u8",
+      "name": "CCTV14",
+      "minNmae":"少儿",
+      "btnName": "14",
+      "id": 14
+    },
+    {
+      "url": "/cctvApi/hls/cctv15.m3u8",
+      "name": "CCTV15",
+      "minNmae":"音乐",
+      "btnName": "15",
+      "id": 15
+    },
+    {
+      "url": "/cctvApi/hls/hunanhd.m3u8",
+      "name": "湖南卫视",
+      "minNmae":"湖南卫视",
+      "btnName": "16",
+      "id": 16
+    },
+    {
+      "url": "/cctvApi/hls/zjhd.m3u8",
+      "name": "浙江卫视",
+      "minNmae":"浙江卫视",
+      "btnName": "17",
+      "id": 17
+    },
+    {
+      "url": "/cctvApi/hls/lytv.m3u8",
+      "name": "旅游卫视",
+      "minNmae":"旅游卫视",
+      "btnName": "18",
+      "id": 18
+    }
+  ]
+}
