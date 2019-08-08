@@ -7,11 +7,17 @@ import Me from '@/page/me';
 import One from '@/page/tools/a';
 import Two from '@/page/tools/b';
 import Three from '@/page/tools/c';
+import Video from '@/page/video';
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    {
+      path: '/',
+      name: '',
+      component: Layout,
+    },
     {
       path: '/',
       name: '',
@@ -46,6 +52,11 @@ export default new Router({
           path: '/tools/three',
           name: 'Three',
           component: Three,
+        },
+        {
+          path: '/video',
+          name: 'Video',
+          component: Video,
         }
       ]
     },
